@@ -1,0 +1,19 @@
+name: nain_tides
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - cartopy>=0.18
+  - cmocean
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - utide
+  - xarray
+
+# To install new dependencies list them above
+# and then type the following command
+# conda env update --file environment.yml --prune
